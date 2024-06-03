@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <th>Nguyễn Thị Duyền</th>
-    <th>Mã sinh viên</th>
+    <th>2151163678</th>
   </tr>
   <tr>
     <th>Dương Thanh Hiền</th>
