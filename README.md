@@ -18,6 +18,7 @@
     <th>2151163690</th>
   </tr>
 </table>
+<h4>Giáo viên hướng dẫn: </h4> <span>ThS. Nguyễn Văn Nam</span>
 
 <hr>
 <h2>Ứng dụng học từ vựng tiếng anh viết bằng ngôn ngữ Java, database SQLite, Firebase</h2>
