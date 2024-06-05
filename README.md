@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th>Họ tên</th>
-    <th>Mã sinh viên</th>
+    <th>2151163674</th>
   </tr>
   <tr>
     <th>Hoàng Thị Kim Dung</th>
