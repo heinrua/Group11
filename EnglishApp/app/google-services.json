@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "88012561015",
+    "firebase_url": "https://vocalnodb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vocalnodb",
+    "storage_bucket": "vocalnodb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88012561015:android:c07a73fa02801a3c04c472",
+        "android_client_info": {
+          "package_name": "com.baitapandroid.apptuvung"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs9XPrwC8EC7dEdshQZGF6zQ-ssnfvsBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88012561015:android:310b8dad1253302b04c472",
+        "android_client_info": {
+          "package_name": "com.example.firebasendk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs9XPrwC8EC7dEdshQZGF6zQ-ssnfvsBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88012561015:android:bd06613d7370e37204c472",
+        "android_client_info": {
+          "package_name": "com.nhom11.englishapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs9XPrwC8EC7dEdshQZGF6zQ-ssnfvsBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
