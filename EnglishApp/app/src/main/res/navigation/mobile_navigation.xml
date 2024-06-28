@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dictionary">
+    <fragment
+        android:id="@+id/navigation_main_user"
+        android:name="com.nhom11.englishapp.MainUser"
+        android:label="Từ vựng"
+        tools:layout="@layout/fragment_dictionary" />
+    <fragment
+        android:id="@+id/navigation_dictionary"
+        android:name="com.nhom11.englishapp.ui.dictionary.DictionaryFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_dictionary" />
+
+    <fragment
+        android:id="@+id/navigation_games"
+        android:name="com.nhom11.englishapp.ui.games.GamesFragment"
+        android:label="@string/title_games"
+        tools:layout="@layout/fragment_games" />
+
+    <fragment
+        android:id="@+id/navigation_ipa"
+        android:name="com.nhom11.englishapp.IPAFragment"
+        android:label="@string/title_ipa"
+        tools:layout="@layout/fragment_ipa" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.nhom11.englishapp.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
