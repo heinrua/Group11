@@ -132,17 +132,7 @@
                     android:onClick="@{listeners::saveLearnedWord}"
                     />
 
-                <Button
-                    android:id="@+id/bntKThuoc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
 
-                    android:layout_margin="12px"
-                    android:backgroundTint="#DF2020"
-                    android:contentDescription="@string/a_slash_b"
-                    android:drawableTop="@drawable/close"
-                    android:onClick="@{listeners::removeLearnedWord}"
-                    android:gravity="center" />
             </LinearLayout>
 
 
