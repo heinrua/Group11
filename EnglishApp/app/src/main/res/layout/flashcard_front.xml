@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="entry"
+            type="com.nhom11.englishapp.util.DictionaryEntry" />
+
+        <variable
+            name="listeners"
+            type="com.nhom11.englishapp.ui.dictionary.DictionaryListItem" />
+
+        <variable
+            name="isFavorited"
+            type="boolean" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounder_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:onClick="@{listeners::toggleDetails}"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/dictionary_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@{entry.name}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:text="name" />
+
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.DictionaryFragment">
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable
+            name="filterMode"
+            type="int" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|end"
+            android:orientation="horizontal"
+            android:paddingHorizontal="5dp">
+
+            <SearchView
+                android:id="@+id/txt_search"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+                android:queryHint="@string/dictionary_search_hint">
+
+
+            </SearchView>
+
+            <ImageView
+                android:id="@+id/explore_word"
+                android:layout_width="?attr/minTouchTargetSize"
+                android:layout_height="?attr/minTouchTargetSize"
+                android:padding="4dp"
+                android:src="@drawable/explore" />
+
+
+            <Spinner
+                android:id="@+id/filter_type_spinner"
+                android:layout_width="?attr/minTouchTargetSize"
+                android:layout_height="?attr/minTouchTargetSize"
+                android:layout_marginHorizontal="6dp"
+                android:prompt="@string/dictionary_filter"
+                tools:background="@drawable/filter" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            >
+
+            <GridView
+                android:id="@+id/lstDictionary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:horizontalSpacing="10dp"
+                android:numColumns="2"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:verticalSpacing="10dp"
+                tools:listitem="@layout/flashcard" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+</layout>
